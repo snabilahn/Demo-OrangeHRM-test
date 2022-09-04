@@ -17,7 +17,7 @@ OrangeHRM is a website management system for HR in a company. This project is Or
 - Python v3.10.6
 
 ## Test Run Result
-You can access my test run result for this project from here (written in Bahasa Indonesia):
+You can access test run result for this project from here (written in Bahasa Indonesia):
 - **Test run result 1**: https://app.qase.io/public/report/4334f7209911d110152152d7ef2b11662e5b51a9
 - **Test run result 2**: https://app.qase.io/public/report/e15d59fd2f1a2b7ec6437ab10cb13ea587051d03
 
