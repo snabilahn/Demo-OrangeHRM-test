@@ -1,0 +1,1958 @@
+id,title,description,preconditions,postconditions,tags,priority,severity,type,behavior,automation,status,is_flaky,layer,steps_type,steps_actions,steps_result,steps_data,milestone_id,milestone,suite_id,suite_parent_id,suite,suite_without_cases
+,,,,,,,,,,,,,,,,,,,,2,,Admin,1
+,,,,,,,,,,,,,,,,,,,,3,2,"Add User Account",1
+,,,,,,,,,,,,,,,,,,,,4,2,"User Account List",1
+,,,,,,,,,,,,,,,,,,,,5,,PIM,1
+,,,,,,,,,,,,,,,,,,,,6,5,"Add Employee",1
+,,,,,,,,,,,,,,,,,,,,7,5,"Employee List",1
+,,,,,,,,,,,,,,,,,,,,8,,Leave,1
+,,,,,,,,,,,,,,,,,,,,9,8,"Leave List",1
+,,,,,,,,,,,,,,,,,,,,10,8,"Assign Leave",1
+,,,,,,,,,,,,,,,,,,,,11,,Time,1
+,,,,,,,,,,,,,,,,,,,,12,11,"Employee Timesheets",1
+,,,,,,,,,,,,,,,,,,,,13,,Recruitment,1
+,,,,,,,,,,,,,,,,,,,,14,13,Vacancies,1
+,,,,,,,,,,,,,,,,,,,,15,13,Candidates,1
+,,,,,,,,,,,,,,,,,,,,16,,"My Info",1
+,,,,,,,,,,,,,,,,,,,,17,,Performance,1
+,,,,,,,,,,,,,,,,,,,,18,,Dashboard,1
+,,,,,,,,,,,,,,,,,,,,19,,Directory,1
+,,,,,,,,,,,,,,,,,,,,20,,Buzz,1
+6,"Membuat akun baru role Employee dengan valid data",,"* User telah mempunyai akun yang terdaftar dan telah login
+* User berada pada halaman menu Admin","Akun baru berhasil dibuat",,high,major,functional,positive,is-not-automated,actual,no,unknown,classic,"1. Menekan menu Admin pada sidebar
+2. Menekan tombol ""+ Add""
+3. Memilih user role Employee pada dropdown
+4. Memasukkan valid Employee Name yang sudah terdaftar pada Employee List
+5. Memilih status akun pada dropdown
+6. Memasukkan valid username
+7. Memasukkan valid password
+8. Memasukkan valid confirmation password
+9. Menekan tombol ""Save""
+","1. User diarahkan pada halaman Admin
+2. User diarahkan pada halaman Add User
+3. User role terpilih
+4. * Muncul nama employee pada list yang terdaftar
+5. Status akun terpilih
+6. 
+7. Password terenkripsi (\*\*\*\*\*\*\*\*)
+8. Password terenkripsi (\*\*\*\*\*\*\*\*)
+9. * Akun baru berhasil terdaftar
+* Terdapat pop up ""Successfully Saved!""
+* Akun baru akan muncul pada users list
+","1. 
+2. 
+3. ESS
+4. David Morris
+5. Enabled
+6. davidmorris
+7. IniP4sswordDav!d
+8. IniP4sswordDav!d
+9. 
+",,,3,2,"Add User Account",
+7,"Membuat akun baru role Admin dengan valid data",,"* User telah mempunyai akun yang terdaftar dan telah login
+* User berada pada halaman menu Admin","Akun baru berhasil dibuat",,high,major,functional,positive,is-not-automated,actual,no,unknown,classic,"1. Menekan menu Admin pada sidebar
+2. Menekan tombol ""+ Add""
+3. Memilih user role Employee pada dropdown
+4. Memasukkan valid Employee Name yang sudah terdaftar pada Employee List
+5. Memilih status akun pada dropdown
+6. Memasukkan valid username
+7. Memasukkan valid password
+8. Memasukkan valid confirmation password
+9. Menekan tombol ""Save""
+","1. User diarahkan pada halaman Admin
+2. User diarahkan pada halaman Add User
+3. User role terpilih
+4. * Muncul nama employee pada list yang terdaftar
+5. Status akun terpilih
+6. 
+7. Password terenkripsi (\*\*\*\*\*\*\*\*)
+8. Password terenkripsi (\*\*\*\*\*\*\*\*)
+9. * Akun baru berhasil terdaftar
+* Terdapat pop up ""Successfully Saved!""
+* Akun baru akan muncul pada users list
+","1. 
+2. 
+3. Admin
+4. Cassidy
+5. Enabled
+6. cassidyhope
+7. IniP4sswordCass!
+8. IniP4sswordCass!
+9. 
+",,,3,2,"Add User Account",
+8,"Membuat akun baru dengan status akun Disabled menggunakan valid data",,"* User telah mempunyai akun yang terdaftar dan telah login
+* User berada pada halaman menu Admin","Akun baru berhasil dibuat",,high,major,functional,positive,is-not-automated,actual,no,unknown,classic,"1. Menekan menu Admin pada sidebar
+2. Menekan tombol ""+ Add""
+3. Memilih user role Employee pada dropdown
+4. Memasukkan valid Employee Name yang sudah terdaftar pada Employee List
+5. Memilih status akun pada dropdown
+6. Memasukkan valid username
+7. Memasukkan valid password
+8. Memasukkan valid confirmation password
+9. Menekan tombol ""Save""
+","1. User diarahkan pada halaman Admin
+2. User diarahkan pada halaman Add User
+3. User role terpilih
+4. * Muncul nama employee pada list yang terdaftar
+5. Status akun terpilih
+6. 
+7. Password terenkripsi (\*\*\*\*\*\*\*\*)
+8. Password terenkripsi (\*\*\*\*\*\*\*\*)
+9. * Akun baru berhasil terdaftar
+* Terdapat pop up ""Successfully Saved!""
+* Akun baru akan muncul pada users list
+","1. 
+2. 
+3. ESS
+4. Charlie Carter
+5. Disabled
+6. charliecarter
+7. IniP4sswordC@rter
+8. IniP4sswordC@rter
+9. 
+",,,3,2,"Add User Account",
+9,"Membuat akun baru dengan Employee Name yang belum terdaftar",,"* User telah mempunyai akun yang terdaftar dan telah login
+* User berada pada halaman menu Admin","Akun tidak berhasil dibuat",,high,major,functional,negative,is-not-automated,actual,no,unknown,classic,"1. Menekan menu Admin pada sidebar
+2. Menekan tombol ""+ Add""
+3. Memilih user role Employee pada dropdown
+4. Memasukkan Employee Name yang belum terdaftar pada Employee List
+5. Memilih status akun pada dropdown
+6. Memasukkan valid username
+7. Memasukkan valid password
+8. Memasukkan valid confirmation password
+9. Menekan tombol ""Save""
+","1. User diarahkan pada halaman Admin
+2. User diarahkan pada halaman Add User
+3. User role terpilih
+4. * Nama employee yang dimasukkan tidak muncul
+* Muncul ""Not Found"" pada dropdown
+5. Status akun terpilih
+6. 
+7. Password terenkripsi (\*\*\*\*\*\*\*\*)
+8. Password terenkripsi (\*\*\*\*\*\*\*\*)
+9. * Akun tidak berhasil terdaftar
+* Terdapat ""Required!"" di bawah field Employee Name
+* User tetap berada pada halaman Add User
+","1. 
+2. 
+3. ESS
+4. Diah Ayu
+5. Enabled
+6. diahayu
+7. IniP4sswordD!a
+8. IniP4sswordD!a
+9. 
+",,,3,2,"Add User Account",
+10,"Membuat akun baru dengan mengosongkan field Employee Name",,"* User telah mempunyai akun yang terdaftar dan telah login
+* User berada pada halaman menu Admin","Akun tidak berhasil dibuat",,high,major,functional,negative,is-not-automated,actual,no,unknown,classic,"1. Menekan menu Admin pada sidebar
+2. Menekan tombol ""+ Add""
+3. Memilih user role Employee pada dropdown
+4. Mengosongkan field Employee Name
+5. Memilih status akun pada dropdown
+6. Memasukkan valid username
+7. Memasukkan valid password
+8. Memasukkan valid confirmation password
+9. Menekan tombol ""Save""
+","1. User diarahkan pada halaman Admin
+2. User diarahkan pada halaman Add User
+3. User role terpilih
+4. * Nama employee yang dimasukkan tidak muncul
+5. Status akun terpilih
+6. 
+7. Password terenkripsi (\*\*\*\*\*\*\*\*)
+8. Password terenkripsi (\*\*\*\*\*\*\*\*)
+9. * Akun tidak berhasil terdaftar
+* Terdapat ""Required!"" di bawah field Employee Name
+* User tetap berada pada halaman Add User
+","1. 
+2. 
+3. ESS
+4. 
+5. Enabled
+6. charliecarterr
+7. IniP4sswordC@rter
+8. IniP4sswordC@rter
+9. 
+",,,3,2,"Add User Account",
+12,"Membuat akun baru dengan mengosongkan field Username",,"* User telah mempunyai akun yang terdaftar dan telah login
+* User berada pada halaman menu Admin","Akun tidak berhasil dibuat",,high,major,functional,negative,is-not-automated,actual,no,unknown,classic,"1. Menekan menu Admin pada sidebar
+2. Menekan tombol ""+ Add""
+3. Memilih user role Employee pada dropdown
+4. Memasukkan valid Employee Name yang sudah terdaftar pada Employee List
+5. Memilih status akun pada dropdown
+6. Mengosongkan field username
+7. Memasukkan valid password
+8. Memasukkan valid confirmation password
+9. Menekan tombol ""Save""
+","1. User diarahkan pada halaman Admin
+2. User diarahkan pada halaman Add User
+3. User role terpilih
+4. * Muncul nama employee pada list yang terdaftar
+5. Status akun terpilih
+6. Terdapat warning ""Required"" di bawah field username
+7. Password terenkripsi (\*\*\*\*\*\*\*\*)
+8. Password terenkripsi (\*\*\*\*\*\*\*\*)
+9. * Terdapat warning ""Required"" di bawah field username
+* Akun tidak berhasil dibuat
+* User tetap pada halaman Add User
+","1. 
+2. 
+3. ESS
+4. Charlie Carter
+5. Enabled
+6. 
+7. IniP4sswordC@rter
+8. IniP4sswordC@rter
+9. 
+",,,3,2,"Add User Account",
+13,"Membuat akun baru dengan memasukkan username kurang dari 5 karakter",,"* User telah mempunyai akun yang terdaftar dan telah login
+* User berada pada halaman menu Admin","Akun tidak berhasil dibuat",,high,major,functional,negative,is-not-automated,actual,no,unknown,classic,"1. Menekan menu Admin pada sidebar
+2. Menekan tombol ""+ Add""
+3. Memilih user role Employee pada dropdown
+4. Memasukkan valid Employee Name yang sudah terdaftar pada Employee List
+5. Memilih status akun pada dropdown
+6. Memasukkan username kurang dari 5 karakter
+7. Memasukkan valid password
+8. Memasukkan valid confirmation password
+9. Menekan tombol ""Save""
+","1. User diarahkan pada halaman Admin
+2. User diarahkan pada halaman Add User
+3. User role terpilih
+4. * Muncul nama employee pada list yang terdaftar
+5. Status akun terpilih
+6. Terdapat warning ""Should be least 5 characters"" di bawah field username
+7. Password terenkripsi (\*\*\*\*\*\*\*\*)
+8. Password terenkripsi (\*\*\*\*\*\*\*\*)
+9. * Terdapat warning ""Should be least 5 characters"" di bawah field username
+* Akun tidak berhasil dibuat
+* User tetap pada halaman Add User
+","1. 
+2. 
+3. ESS
+4. Charlie Carter
+5. Enabled
+6. Cha
+7. IniP4sswordC@rter
+8. IniP4sswordC@rter
+9. 
+",,,3,2,"Add User Account",
+14,"Membuat akun baru dengan memasukkan username lebih dari 40 karakter",,"* User telah mempunyai akun yang terdaftar dan telah login
+* User berada pada halaman menu Admin","Akun tidak berhasil dibuat",,medium,major,functional,negative,is-not-automated,actual,no,unknown,classic,"1. Menekan menu Admin pada sidebar
+2. Menekan tombol ""+ Add""
+3. Memilih user role Employee pada dropdown
+4. Memasukkan valid Employee Name yang sudah terdaftar pada Employee List
+5. Memilih status akun pada dropdown
+6. Memasukkan username lebih dari 40 karakter
+7. Memasukkan valid password
+8. Memasukkan valid confirmation password
+9. Menekan tombol ""Save""
+","1. User diarahkan pada halaman Admin
+2. User diarahkan pada halaman Add User
+3. User role terpilih
+4. * Muncul nama employee pada list yang terdaftar
+5. Status akun terpilih
+6. Terdapat warning ""Should not exceed 40 characters"" di bawah field username
+7. Password terenkripsi (\*\*\*\*\*\*\*\*)
+8. Password terenkripsi (\*\*\*\*\*\*\*\*)
+9. * Terdapat warning ""Should not exceed 40 characters"" di bawah field username
+* Akun tidak berhasil dibuat
+* User tetap pada halaman Add User
+","1. 
+2. 
+3. ESS
+4. Charlie Carter
+5. Enabled
+6. asdjkluowernadflasjoevnkcnsdfuiernsdfcxsdwowedsf
+7. IniP4sswordC@rter
+8. IniP4sswordC@rter
+9. 
+",,,3,2,"Add User Account",
+15,"Membuat akun baru dengan mengosongkan password field",,"* User telah mempunyai akun yang terdaftar dan telah login
+* User berada pada halaman menu Admin","Akun tidak berhasil dibuat",,high,major,functional,negative,is-not-automated,actual,no,unknown,classic,"1. Menekan menu Admin pada sidebar
+2. Menekan tombol ""+ Add""
+3. Memilih user role Employee pada dropdown
+4. Memasukkan valid Employee Name yang sudah terdaftar pada Employee List
+5. Memilih status akun pada dropdown
+6. Memasukkan valid username
+7. Mengosongkan field password
+8. Mengosongkan field confirmation password
+9. Menekan tombol ""Save""
+","1. User diarahkan pada halaman Admin
+2. User diarahkan pada halaman Add User
+3. User role terpilih
+4. * Muncul nama employee pada list yang terdaftar
+5. Status akun terpilih
+6. 
+7. Terdapat warning ""Required"" di bawah field password
+8. 
+9. * Terdapat warning""Required"" di bawah field password
+* Akun tidak berhasil dibuat
+* User tetap pada halaman Add User
+","1. 
+2. 
+3. ESS
+4. Charlie Carter
+5. Enabled
+6. charliecarterr
+7. 
+8. 
+9. 
+",,,3,2,"Add User Account",
+16,"Membuat akun baru menggunakan password kurang dari 8 karakter",,"* User telah mempunyai akun yang terdaftar dan telah login
+* User berada pada halaman menu Admin","Akun tidak berhasil dibuat",,high,major,functional,negative,is-not-automated,actual,no,unknown,classic,"1. Menekan menu Admin pada sidebar
+2. Menekan tombol ""+ Add""
+3. Memilih user role Employee pada dropdown
+4. Memasukkan valid Employee Name yang sudah terdaftar pada Employee List
+5. Memilih status akun pada dropdown
+6. Memasukkan valid username
+7. Memasukkan password kurang dari 8 karakter
+8. Memasukkan valid confirmation password
+9. Menekan tombol ""Save""
+","1. User diarahkan pada halaman Admin
+2. User diarahkan pada halaman Add User
+3. User role terpilih
+4. * Muncul nama employee pada list yang terdaftar
+5. Status akun terpilih
+6. 
+7. Terdapat warning ""Should have at least 8 characters"" di bawah field password
+8. Password terenkripsi (\*\*\*\*\*\*\*\*)
+9. * Terdapat warning ""Should have at least 8 characters"" di bawah field password
+* Akun tidak berhasil dibuat
+* User tetap pada halaman Add User
+","1. 
+2. 
+3. ESS
+4. Charlie Carter
+5. Enabled
+6. charliecarterr
+7. IniP@s5
+8. IniP@s5
+9. 
+",,,3,2,"Add User Account",
+17,"Membuat akun baru menggunakan password lebih dari 64 karakter",,"* User telah mempunyai akun yang terdaftar dan telah login
+* User berada pada halaman menu Admin","Akun tidak berhasil dibuat",,medium,major,functional,negative,is-not-automated,actual,no,unknown,classic,"1. Menekan menu Admin pada sidebar
+2. Menekan tombol ""+ Add""
+3. Memilih user role Employee pada dropdown
+4. Memasukkan valid Employee Name yang sudah terdaftar pada Employee List
+5. Memilih status akun pada dropdown
+6. Memasukkan valid username
+7. Memasukkan password lebih dari 64 karakter
+8. Memasukkan valid confirmation password
+9. Menekan tombol ""Save""
+","1. User diarahkan pada halaman Admin
+2. User diarahkan pada halaman Add User
+3. User role terpilih
+4. * Muncul nama employee pada list yang terdaftar
+5. Status akun terpilih
+6. 
+7. Terdapat warning ""Should not exceed 64 characters"" di bawah field password
+8. Password terenkripsi (\*\*\*\*\*\*\*\*)
+9. * Terdapat warning ""Should not exceed 64 characters"" di bawah field password
+* Akun tidak berhasil dibuat
+* User tetap pada halaman Add User
+","1. 
+2. 
+3. ESS
+4. Charlie Carter
+5. Enabled
+6. charliecarterr
+7. IniP@s5IniP@s5IniP@s5IniP@s5IniP@s5IniP@s5IniP@s5IniP@s5IniP@s5IniP@s5
+8. IniP@s5IniP@s5IniP@s5IniP@s5IniP@s5IniP@s5IniP@s5IniP@s5IniP@s5IniP@s5
+9. 
+",,,3,2,"Add User Account",
+18,"Membuat akun baru tanpa menggunakan kombinasi huruf kecil, huruf besar, angka dan special character pada password",,"* User telah mempunyai akun yang terdaftar dan telah login
+* User berada pada halaman menu Admin","Akun tidak berhasil dibuat",,high,major,functional,negative,is-not-automated,actual,no,unknown,classic,"1. Menekan menu Admin pada sidebar
+2. Menekan tombol ""+ Add""
+3. Memilih user role Employee pada dropdown
+4. Memasukkan valid Employee Name yang sudah terdaftar pada Employee List
+5. Memilih status akun pada dropdown
+6. Memasukkan valid username
+7. Memasukkan password tanpa menggunakan kombinasi huruf kecil, huruf besar, angka dan special character pada password
+8. Memasukkan valid confirmation password
+9. Menekan tombol ""Save""
+","1. User diarahkan pada halaman Admin
+2. User diarahkan pada halaman Add User
+3. User role terpilih
+4. * Muncul nama employee pada list yang terdaftar
+5. Status akun terpilih
+6. 
+7. Terdapat warning ""Your password must contain a lower-case letter, an upper-case letter, a digit and a special character. Try a different password"" di bawah field password
+8. Password terenkripsi (\*\*\*\*\*\*\*\*)
+9. * Terdapat warning ""Your password must contain a lower-case letter, an upper-case letter, a digit and a special character. Try a different password"" di bawah field password
+* Akun tidak berhasil dibuat
+* User tetap pada halaman Add User
+","1. 
+2. 
+3. ESS
+4. Charlie Carter
+5. Enabled
+6. charliecarterr
+7. inipassword
+8. inipassword
+9. 
+",,,3,2,"Add User Account",
+19,"Membuat akun baru dengan mengosongkan field confirmation password",,"* User telah mempunyai akun yang terdaftar dan telah login
+* User berada pada halaman menu Admin","Akun tidak berhasil dibuat",,high,major,functional,negative,is-not-automated,actual,no,unknown,classic,"1. Menekan menu Admin pada sidebar
+2. Menekan tombol ""+ Add""
+3. Memilih user role Employee pada dropdown
+4. Memasukkan valid Employee Name yang sudah terdaftar pada Employee List
+5. Memilih status akun pada dropdown
+6. Memasukkan valid username
+7. Memasukkan valid password
+8. Mengosongkan field valid password
+9. Menekan tombol ""Save""
+","1. User diarahkan pada halaman Admin
+2. User diarahkan pada halaman Add User
+3. User role terpilih
+4. * Muncul nama employee pada list yang terdaftar
+5. Status akun terpilih
+6. 
+7. Password terenkripsi (\*\*\*\*\*\*\*\*)
+8. * Terdapat warning ""Required"" di bawah field password
+9. * Terdapat warning ""Required"" di bawah field password
+* Akun tidak berhasil dibuat
+* User tetap pada halaman Add User
+","1. 
+2. 
+3. ESS
+4. Charlie Carter
+5. Enabled
+6. charliecarterr
+7. IniP4sswordC@rter
+8. 
+9. 
+",,,3,2,"Add User Account",
+20,"Membuat akun baru ketika field confirmation password dan password tidak sama",,"* User telah mempunyai akun yang terdaftar dan telah login
+* User berada pada halaman menu Admin","Akun tidak berhasil dibuat",,high,major,functional,negative,is-not-automated,actual,no,unknown,classic,"1. Menekan menu Admin pada sidebar
+2. Menekan tombol ""+ Add""
+3. Memilih user role Employee pada dropdown
+4. Memasukkan valid Employee Name yang sudah terdaftar pada Employee List
+5. Memilih status akun pada dropdown
+6. Memasukkan valid username
+7. Memasukkan valid password
+8. Memasukkan confirmation password yang tidak sama dengan password
+9. Menekan tombol ""Save""
+","1. User diarahkan pada halaman Admin
+2. User diarahkan pada halaman Add User
+3. User role terpilih
+4. * Muncul nama employee pada list yang terdaftar
+5. Status akun terpilih
+6. 
+7. Password terenkripsi (\*\*\*\*\*\*\*\*)
+8. * Terdapat warning ""Passwords do not match"" di bawah field password
+9. * Terdapat warning ""Passwords do not match"" di bawah field password
+* Akun tidak berhasil dibuat
+* User tetap pada halaman Add User
+","1. 
+2. 
+3. ESS
+4. Charlie Carter
+5. Enabled
+6. charliecarterr
+7. IniP4sswordC@rter
+8. IniP@ssw0rd
+9. 
+",,,3,2,"Add User Account",
+21,"Mencari user dengan valid data",,"* User telah mempunyai akun yang terdaftar dan telah login
+* User berada pada halaman menu Admin","User berhasil ditemukan",,high,normal,functional,positive,is-not-automated,actual,no,unknown,classic,"1. Memasukkan valid username
+2. Memilih user role Employee pada dropdown
+3. Memasukkan valid keyword Employee Name
+4. Memilih status akun pada dropdown
+5. Menekan tombol ""Search""
+","1. 
+2. User role terpilih
+3. 
+4. Status akun terpilih
+5. * Menampilkan daftar akun yang dicari
+","1. Admin
+2. Admin
+3. paul
+4. Enabled
+5. 
+",,,4,2,"User Account List",
+22,"Reset pencarian setelah didapatkan hasil pencarian",,"* User telah mempunyai akun yang terdaftar dan telah login
+* User berada pada halaman menu Admin","* Parameter pencarian hilang
+* Semua user list ditampilkan",,medium,normal,functional,positive,is-not-automated,actual,no,unknown,classic,"1. Menekan tombol ""Reset""
+","1. * Parameter pencarian hilang
+* Parameter pada field pencarian hilang
+* Semua user list ditampilkan
+","1. 
+",,,4,2,"User Account List",
+23,"Mencari user dengan invalid data",,"* User telah mempunyai akun yang terdaftar dan telah login
+* User berada pada halaman menu Admin","User tidak berhasil ditemukan",,high,normal,functional,negative,is-not-automated,actual,no,unknown,classic,"1. Memasukkan valid username
+2. Memilih user role Employee pada dropdown
+3. Memasukkan valid keyword Employee Name
+4. Memilih status akun pada dropdown
+5. Menekan tombol ""Search""
+","1. 
+2. User role terpilih
+3. 
+4. Status akun terpilih
+5. * Tidak ada akun user yang ditemukan
+* Menampilkan ""No Records Found""
+","1. asd
+2. Admin
+3. paul
+4. Enabled
+5. 
+",,,4,2,"User Account List",
+24,"Menghapus satu akun user pada user list",,"* User telah mempunyai akun yang terdaftar dan telah login
+* User berada pada halaman menu Admin","Akun berhasil dihapus",,high,major,functional,positive,automated,actual,no,unknown,classic,"1. Menekan icon sampah pada salah satu akun
+2. Menekan tombol ""Yes, Delete""
+","1. Muncul pop up ""The selected record will be permanently deleted. Are you sure you want to continue?""
+2. * Akun berhasil dihapus
+* Terdapat pemberitahuan ""Successfully Deleted""
+","1. 
+2. 
+",,,4,2,"User Account List",
+25,"Mengedit satu akun user pada user list",,"* User telah mempunyai akun yang terdaftar dan telah login
+* User berada pada halaman menu Admin","Akun berhasil diedit",,high,major,functional,positive,automated,actual,no,unknown,classic,"1. Menekan icon pensil pada salah satu akun
+2. Melakukan valid update data
+3. Menekan tombol ""Save""
+","1. Akan diarahkan pada halaman edit
+2. Data baru terupdate
+3. * Detail akun berhasil terupdate
+* Data berhasil tersimpan
+* Terdapat pemberitahuan ""Successfully Updated""
+","1. 
+2. 
+3. 
+",,,4,2,"User Account List",
+26,"Menghapus beberapa akun user pada user list",,"* User telah mempunyai akun yang terdaftar dan telah login
+* User berada pada halaman menu Admin","Beberapa akun yang dipilih berhasil dihapus",,medium,major,functional,positive,is-not-automated,actual,no,unknown,classic,"1. Menekan checkbox pada beberapa akun yang akan dihapus
+2. Menekan tombol ""Delete Selected""
+3. Menekan tombol ""Yes, Delete""
+","1. Beberapa akun terpilih
+2. Muncul pop up ""The selected record will be permanently deleted. Are you sure you want to continue?""
+3. * Akun berhasil dihapus
+* Terdapat pemberitahuan ""Successfully Deleted""
+","1. 
+2. 
+3. 
+",,,4,2,"User Account List",
+39,"Mengedit akun user pada user list tanpa mengubah data",,"* User telah mempunyai akun yang terdaftar dan telah login
+* User berada pada halaman menu Admin","Akun berhasil di update",,high,major,functional,negative,automated,actual,no,unknown,classic,"1. Menekan icon pensil pada salah satu akun
+2. Menekan tombol ""Save""
+","1. Akan diarahkan pada halaman edit
+2. * Detail akun tidak berubah
+* Data berhasil tersimpan
+* Terdapat pemberitahuan ""Successfully Updated""
+","1. 
+2. 
+",,,4,2,"User Account List",
+27,"Menambahkan employee baru dengan valid data",,"* User telah mempunyai akun yang terdaftar dan telah login
+* User berada pada halaman menu PIM","Employee berhasil ditambahkan",,high,major,functional,positive,automated,actual,no,unknown,classic,"1. Menekan menu PIM pada sidebar
+2. Menekan tombol ""+ Add""
+3. Memasukkan first name valid
+4. Memasukkan middle name valid
+5. Memasukkan last name valid
+6. Menekan tombol ""Save""
+","1. User diarahkan pada halaman Employee Information
+2. User diarahkan pada halaman Add Employee
+3. 
+4. 
+5. 
+6. * Employee baru tersimpan
+* Terdapat pemberitahuan ""Successfully saved""
+* Diarahkan pada halaman Personal Details Employee
+","1. 
+2. 
+3. Dewi
+4. Puspita
+5. Sari
+6. 
+",,,6,5,"Add Employee",
+28,"Menambahkan employee baru menggunakan valid data dan membuat akun baru",,"* User telah mempunyai akun yang terdaftar dan telah login
+* User berada pada halaman menu PIM","* Employee berhasil ditambahkan
+* Akun berhasil ditambahkan",,medium,major,functional,positive,automated,actual,no,unknown,classic,"1. Menekan menu PIM pada sidebar
+2. Menekan tombol ""+ Add""
+3. Memasukkan first name valid
+4. Memasukkan middle name valid
+5. Memasukkan last name valid
+6. Switch tombol ""Create Login Details""
+7. Memasukkan username valid
+8. Memilih radio button status akun
+9. Memasukkan password valid
+10. Memasukkan confirmation password valid
+11. Menekan tombol ""Save""
+","1. User diarahkan pada halaman Employee Information
+2. User diarahkan pada halaman Add Employee
+3. 
+4. 
+5. 
+6. Menampilkan form membuat akun baru
+7. Menampilkan form membuat akun baru
+8. Status akun terpilih
+9. Password ter-enkripsi (\*\*\*\*\*\*\*)
+10. Password ter-enkripsi (\*\*\*\*\*\*\*)
+11. * Employee baru tersimpan
+* Akun berhasil dibuat
+* Terdapat pemberitahuan ""Successfully saved""
+* Diarahkan pada halaman Personal Details Employee
+","1. 
+2. 
+3. Dewi
+4. Puspita
+5. Sari
+6. 
+7. dewipuspita
+8. Enabled
+9. IniP4sswordDew!
+10. IniP4sswordDew!
+11. 
+",,,6,5,"Add Employee",
+29,"Menambahkan employee baru dengan mengosongkan field first name",,"* User telah mempunyai akun yang terdaftar dan telah login
+* User berada pada halaman menu PIM","Employee tidak berhasil ditambahkan",,high,major,functional,negative,automated,actual,no,unknown,classic,"1. Menekan menu PIM pada sidebar
+2. Menekan tombol ""+ Add""
+3. Mengosongkan field first name
+4. Memasukkan middle name valid
+5. Memasukkan last name valid
+6. Menekan tombol ""Save""
+","1. User diarahkan pada halaman Employee Information
+2. User diarahkan pada halaman Add Employee
+3. Terdapat warning ""Required"" di bawah field first name
+4. 
+5. 
+6. * Terdapat warning ""Required"" di bawah field first name
+* Employee baru tidak berhasil ditambahkan
+* User tetap berada pada halaman Add Employee
+","1. 
+2. 
+3. 
+4. Puspita
+5. Sari
+6. 
+",,,6,5,"Add Employee",
+30,"Menambahkan employee baru dengan mengosongkan field middle name",,"* User telah mempunyai akun yang terdaftar dan telah login
+* User berada pada halaman menu PIM","Employee berhasil ditambahkan",,high,major,functional,negative,is-not-automated,actual,no,unknown,classic,"1. Menekan menu PIM pada sidebar
+2. Menekan tombol ""+ Add""
+3. Mengosongkan field first name
+4. Memasukkan middle name valid
+5. Memasukkan last name valid
+6. Menekan tombol ""Save""
+","1. User diarahkan pada halaman Employee Information
+2. User diarahkan pada halaman Add Employee
+3. 
+4. 
+5. 
+6. * Employee baru berhasil ditambahkan
+* Terdapat pemberitahuan ""Successfully saved""
+* Diarahkan pada halaman Personal Details Employee
+","1. 
+2. 
+3. Dewi
+4. 
+5. Sari
+6. 
+",,,6,5,"Add Employee",
+31,"Menambahkan employee baru dengan mengosongkan field last name",,"* User telah mempunyai akun yang terdaftar dan telah login
+* User berada pada halaman menu PIM","Employee tidak berhasil ditambahkan",,high,major,functional,negative,is-not-automated,actual,no,unknown,classic,"1. Menekan menu PIM pada sidebar
+2. Menekan tombol ""+ Add""
+3. Mengosongkan field first name
+4. Memasukkan middle name valid
+5. Memasukkan last name valid
+6. Menekan tombol ""Save""
+","1. User diarahkan pada halaman Employee Information
+2. User diarahkan pada halaman Add Employee
+3. 
+4. 
+5. Terdapat warning ""Required"" di bawah field first name
+6. * Terdapat warning ""Required"" di bawah field last name
+* Employee baru tidak berhasil ditambahkan
+* User tetap berada pada halaman Add Employee
+","1. 
+2. 
+3. Dewi
+4. Puspita
+5. 
+6. 
+",,,6,5,"Add Employee",
+32,"Menambahkan employee baru dengan mengubah Employee Id yang sudah terdaftar",,"* User telah mempunyai akun yang terdaftar dan telah login
+* User berada pada halaman menu PIM","Employee tidak berhasil ditambahkan",,high,major,functional,negative,is-not-automated,actual,no,unknown,classic,"1. Menekan menu PIM pada sidebar
+2. Menekan tombol ""+ Add""
+3. Mengosongkan field first name
+4. Memasukkan middle name valid
+5. Memasukkan last name valid
+6. Memasukkan Employee Id yang sudah terdaftar
+7. Menekan tombol ""Save""
+","1. User diarahkan pada halaman Employee Information
+2. User diarahkan pada halaman Add Employee
+3. 
+4. 
+5. Terdapat warning ""Required"" di bawah field first name
+6. Terdapat warning ""Employee Id already exists"" di bawah field Employee Id
+7. * Terdapat warning ""Employee Id already exists"" di bawah field Employee Id
+* Employee baru tidak berhasil ditambahkan
+* User tetap berada pada halaman Add Employee
+","1. 
+2. 
+3. Dewi
+4. Puspita
+5. Sari
+6. 0070
+7. 
+",,,6,5,"Add Employee",
+42,"Menambahkan employee baru dengan menambahkan foto profil valid",,"* User telah mempunyai akun yang terdaftar dan telah login
+* User berada pada halaman menu PIM","Foto profil berhasil ditambahkan",,high,major,functional,positive,is-not-automated,actual,no,unknown,classic,"1. Menekan menu PIM pada sidebar
+2. Menekan tombol ""+ Add""
+3. Memasukkan first name valid
+4. Memasukkan middle name valid
+5. Memasukkan last name valid
+6. Menekan icon ""+"" pada gambar profil
+7. Memilih format gambar valid
+8. Menekan tombol ""Save""
+","1. User diarahkan pada halaman Employee Information
+2. User diarahkan pada halaman Add Employee
+3. 
+4. 
+5. 
+6. File directory device terbuka
+7. Gambar berhasil ditampilkan
+8. * Employee baru tersimpan
+* Gambar profil berhasil upload dan tersimpan
+* Terdapat pemberitahuan ""Successfully saved""
+* Diarahkan pada halaman Personal Details Employee
+","1. 
+2. 
+3. Dewi
+4. Puspita
+5. Sari
+6. 
+7. 
+8. 
+",,,6,5,"Add Employee",
+43,"Menambahkan employee baru dengan menambahkan foto profil dengan ukuran lebih dari 1 MB",,"* User telah mempunyai akun yang terdaftar dan telah login
+* User berada pada halaman menu PIM","Foto profil tidak berhasil ditambahkan",,high,major,functional,negative,is-not-automated,actual,no,unknown,classic,"1. Menekan menu PIM pada sidebar
+2. Menekan tombol ""+ Add""
+3. Memasukkan first name valid
+4. Memasukkan middle name valid
+5. Memasukkan last name valid
+6. Menekan icon ""+"" pada gambar profil
+7. Memilih gambar dengan ukuran lebih dari 1 MB
+8. Menekan tombol ""Save""
+","1. User diarahkan pada halaman Employee Information
+2. User diarahkan pada halaman Add Employee
+3. 
+4. 
+5. 
+6. File directory device terbuka
+7. * Gambar tidak berhasil ditampilkan
+* Terdapat warning ""Attachment Size Exceeded""
+8. * Employee baru tidak tersimpan
+* Gambar profil tidak berhasil upload dan tersimpan
+* Terdapat warning ""Attachment Size Exceeded""
+* User tetap berada halaman Add Employee
+","1. 
+2. 
+3. Dewi
+4. Puspita
+5. Sari
+6. 
+7. 
+8. 
+",,,6,5,"Add Employee",
+44,"Menambahkan employee baru dengan menambahkan foto profil selain format .jpg, .gif, .png",,"* User telah mempunyai akun yang terdaftar dan telah login
+* User berada pada halaman menu PIM","Foto profil tidak berhasil ditambahkan",,high,major,functional,negative,is-not-automated,actual,no,unknown,classic,"1. Menekan menu PIM pada sidebar
+2. Menekan tombol ""+ Add""
+3. Memasukkan first name valid
+4. Memasukkan middle name valid
+5. Memasukkan last name valid
+6. Menekan icon ""+"" pada gambar profil
+7. Memilih file selain format .jpg, .gif, .png
+8. Menekan tombol ""Save""
+","1. User diarahkan pada halaman Employee Information
+2. User diarahkan pada halaman Add Employee
+3. 
+4. 
+5. 
+6. File directory device terbuka
+7. * Gambar tidak berhasil ditampilkan
+* Terdapat warning ""File type not allowed""
+8. * Employee baru tidak tersimpan
+* Gambar profil tidak berhasil upload dan tersimpan
+* Terdapat warning ""File type not allowed""
+* User tetap berada halaman Add Employee
+","1. 
+2. 
+3. Dewi
+4. Puspita
+5. Sari
+6. 
+7. 
+8. 
+",,,6,5,"Add Employee",
+33,"Mencari employee dengan valid data",,"* User telah mempunyai akun yang terdaftar dan telah login
+* User berada pada halaman menu PIM","Employee berhasil ditemukan",,high,major,functional,positive,is-not-automated,actual,no,unknown,classic,"1. Memasukkan valid employee name
+2. Memasukkan valid Employee Id
+3. Memilih user role Employment Status
+4. Memilih Include Employee
+5. Memasukkan valid Supervisor Name
+6. Memilih Job Title
+7. Memilih Sub Unit
+8. Menekan tombol ""Search""
+","1. 
+2. 
+3. Employment status terpilih
+4. Include Employee terpilih
+5. 
+6. Job Title terpilih
+7. Sub Unit terpilih
+8. * Menampilkan daftar employee yang dicari
+","1. Lisa
+2. 0208
+3. Full-Time Probation
+4. Current Employee Only
+5. Fiona Grace
+6. Software Engineer
+7. Development
+8. 
+",,,7,5,"Employee List",
+34,"Reset pencarian employee setelah didapatkan hasil pencarian",,"* User telah mempunyai akun yang terdaftar dan telah login
+* User berada pada halaman menu PIM","* Parameter pencarian hilang
+* Parameter pencarian pada field hilang
+* Semua employee list ditampilkan",,medium,normal,functional,positive,is-not-automated,actual,no,unknown,classic,"1. Menekan tombol ""Reset""
+","1. * Parameter pencarian hilang
+* Semua employee list ditampilkan
+","1. 
+",,,7,5,"Employee List",
+35,"Mencari employee dengan invalid data",,"* User telah mempunyai akun yang terdaftar dan telah login
+* User berada pada halaman menu PIM","Employee tidak berhasil ditemukan",,high,major,functional,negative,is-not-automated,actual,no,unknown,classic,"1. Memasukkan valid employee name
+2. Memasukkan valid Employee Id
+3. Memilih user role Employment Status
+4. Memilih Include Employee
+5. Memasukkan valid Supervisor Name
+6. Memilih Job Title
+7. Memilih Sub Unit
+8. Menekan tombol ""Search""
+","1. 
+2. 
+3. Employment status terpilih
+4. Include Employee terpilih
+5. 
+6. Job Title terpilih
+7. Sub Unit terpilih
+8. * Tidak ada employee yang ditampilkan
+* Menampilkan ""No Records Found""
+","1. asd
+2. asd
+3. Full-Time Probation
+4. Current Employee Only
+5. Fiona Grace
+6. Software Engineer
+7. Development
+8. 
+",,,7,5,"Employee List",
+36,"Menghapus employee pada employee list",,"* User telah mempunyai akun yang terdaftar dan telah login
+* User berada pada halaman menu PIM","Employee berhasil dihapus",,high,major,functional,positive,is-not-automated,actual,no,unknown,classic,"1. Menekan icon sampah pada salah satu nama employee
+2. Menekan tombol ""Yes, Delete""
+","1. Muncul pop up ""The selected record will be permanently deleted. Are you sure you want to continue?""
+2. * Employee berhasil dihapus
+* Terdapat pemberitahuan ""Successfully Deleted""
+","1. 
+2. 
+",,,7,5,"Employee List",
+37,"Mengedit satu employee pada employee list",,"* User telah mempunyai akun yang terdaftar dan telah login
+* User berada pada halaman menu PIM","Employee profile berhasil di update",,high,major,functional,positive,is-not-automated,actual,no,unknown,classic,"1. Menekan icon pensil pada salah satu employee
+2. Update data personal details menggunakan data valid
+3. Menekan tombol ""Save""
+","1. * Akan diarahkan pada halaman Personal Details
+* Menampilkan data yang sudah tersimpan sebelumnya pada setiap fields form
+2. Data baru di update
+3. * Employee profile berhasil terupdate
+* Data berhasil tersimpan
+* Terdapat pemberitahuan ""Successfully Updated""
+","1. 
+2. 
+3. 
+",,,7,5,"Employee List",
+38,"Mengedit employee pada employee list tanpa mengubah data",,"* User telah mempunyai akun yang terdaftar dan telah login
+* User berada pada halaman menu PIM","Data berhasil tersimpan",,high,major,functional,negative,is-not-automated,actual,no,unknown,classic,"1. Menekan icon pensil pada salah satu employee
+2. Menekan tombol ""Save""
+","1. * Akan diarahkan pada halaman personal details
+* Menampilkan data yang sudah tersimpan sebelumnya pada setiap fields form
+2. * Data tetap tidak ada yang berubah
+* Data berhasil tersimpan
+* Terdapat pemberitahuan ""Successfully Updated""
+","1. 
+2. 
+",,,7,5,"Employee List",
+40,"Menghapus beberapa employee pada employee list",,"* User telah mempunyai akun yang terdaftar dan telah login
+* User berada pada halaman menu PIM","Beberapa akun yang dipilih berhasil dihapus",,medium,major,functional,positive,is-not-automated,actual,no,unknown,classic,"1. Menekan checkbox pada beberapa employee yang akan dihapus
+2. Menekan tombol ""Delete Selected""
+3. Menekan tombol ""Yes, Delete""
+","1. Beberapa employee terpilih
+2. Muncul pop up ""The selected record will be permanently deleted. Are you sure you want to continue?""
+3. * Employee berhasil dihapus
+* Terdapat pemberitahuan ""Successfully Deleted""
+","1. 
+2. 
+3. 
+",,,7,5,"Employee List",
+46,"Menyetujui satu permintaan cuti employee",,"* User telah mempunyai akun yang terdaftar dan telah login
+* User berada pada halaman menu Leave","Permintaan cuti berhasil disetujui",,high,normal,functional,positive,automated,actual,no,unknown,classic,"1. Menekan menu Leave pada sidebar menu
+2. Menekan tombol ""Approve"" pada salah satu permintaan persetujuan cuti employee
+","1. User diarahkan pada halaman Leave
+2. * Permintaan cuti berhasil disetujui
+* Terdapat pemberitahuan ""Successfully Updated""
+* Permintaan persetujuan cuti hilang dari list
+* Status permintaan cuti berubah menjadi ""Taken""
+","1. 
+2. 
+",,,9,8,"Leave List",
+47,"Menyetujui beberapa permintaan cuti employee",,"* User telah mempunyai akun yang terdaftar dan telah login
+* User berada pada halaman menu Leave","Permintaan cuti berhasil disetujui",,high,normal,functional,positive,is-not-automated,actual,no,unknown,classic,"1. Menekan menu Leave pada sidebar menu
+2. Menekan checkbox pada beberapa permintaan persetujuan cuti employee
+3. Menekan tombol ""Approve""
+","1. User diarahkan pada halaman Leave
+2. Beberapa permintaan persetujuan cuti employee terpilih
+3. * Permintaan cuti berhasil disetujui
+* Terdapat pemberitahuan ""Successfully Updated""
+* Permintaan persetujuan cuti hilang dari list
+* Status permintaan cuti berubah menjadi ""Taken""
+","1. 
+2. 
+3. 
+",,,9,8,"Leave List",
+48,"Menolak satu permintaan cuti employee",,"* User telah mempunyai akun yang terdaftar dan telah login
+* User berada pada halaman menu Leave","Permintaan cuti berhasil ditolak",,high,normal,functional,positive,automated,actual,no,unknown,classic,"1. Menekan menu Leave pada sidebar menu
+2. Menekan tombol ""Reject"" pada salah satu permintaan persetujuan cuti employee
+","1. User diarahkan pada halaman Leave
+2. * Permintaan cuti berhasil ditolak
+* Terdapat pemberitahuan ""Successfully Updated""
+* Permintaan persetujuan cuti hilang dari list
+* Status permintaan cuti berubah menjadi ""Rejected""
+","1. 
+2. 
+",,,9,8,"Leave List",
+49,"Menolak beberapa permintaan cuti employee",,"* User telah mempunyai akun yang terdaftar dan telah login
+* User berada pada halaman menu Leave","Permintaan cuti berhasil ditolak",,high,normal,functional,positive,is-not-automated,actual,no,unknown,classic,"1. Menekan menu Leave pada sidebar menu
+2. Menekan checkbox pada beberapa permintaan persetujuan cuti employee
+3. Menekan tombol ""Reject""
+4. Menekan tombol ""Yes, Confirm""
+","1. User diarahkan pada halaman Leave
+2. Beberapa permintaan persetujuan cuti employee terpilih
+3. Terdapat pop up message ""You are about to Cancel 2 Leave Requests Are you sure you want to continue?""
+4. * Permintaan cuti berhasil ditolak
+* Terdapat pemberitahuan ""Successfully Updated""
+* Permintaan persetujuan cuti hilang dari list
+* Status permintaan cuti berubah menjadi ""Rejected""
+","1. 
+2. 
+3. 
+4. 
+",,,9,8,"Leave List",
+50,"Melihat detail satu permintaan cuti employee",,"* User telah mempunyai akun yang terdaftar dan telah login
+* User berada pada halaman menu Leave","Diarahkan pada halaman Leave Details",,high,normal,functional,positive,automated,actual,no,unknown,classic,"1. Menekan menu Leave pada sidebar menu
+2. Menekan button 3 dots pada salah satu permintaan persetujuan cuti employee
+3. Menekan menu ""View Leave Details""
+","1. User diarahkan pada halaman Leave
+2. Muncul dropdown pilihan menu
+3. User diarahkan pada halaman Leave Details
+","1. 
+2. 
+3. 
+",,,9,8,"Leave List",
+51,"Melihat detail karyawan yang mengajukan permintaan cuti employee",,"* User telah mempunyai akun yang terdaftar dan telah login
+* User berada pada halaman menu Leave","Diarahkan pada halaman Personal Details karyawan",,high,normal,functional,positive,automated,actual,no,unknown,classic,"1. Menekan menu Leave pada sidebar menu
+2. Menekan button 3 dots pada salah satu permintaan persetujuan cuti employee
+3. Menekan menu ""View PIM Info""
+","1. User diarahkan pada halaman Leave
+2. Muncul dropdown pilihan menu
+3. User diarahkan pada halaman Personal Details karyawan
+","1. 
+2. 
+3. 
+",,,9,8,"Leave List",
+52,"Membatalkan permintaan cuti employee",,"* User telah mempunyai akun yang terdaftar dan telah login
+* User berada pada halaman menu Leave","Permintaan cuti dibatalkan",,high,normal,functional,positive,automated,actual,no,unknown,classic,"1. Menekan menu Leave pada sidebar menu
+2. Menekan button 3 dots pada salah satu permintaan persetujuan cuti employee
+3. Menekan menu ""Cancel Leave""
+","1. User diarahkan pada halaman Leave
+2. Muncul dropdown pilihan menu
+3. * Permintaan cuti berhasil dibatalkan
+* Terdapat pemberitahuan ""Successfully Updated""
+* Permintaan persetujuan cuti hilang dari list
+* Status permintaan cuti berubah menjadi ""Cancelled""
+","1. 
+2. 
+3. 
+",,,9,8,"Leave List",
+53,"Membuat jadwal cuti baru untuk karyawan ketika sisa cuti habis",,"* User telah mempunyai akun yang terdaftar dan telah login
+* User berada pada halaman menu Leave","Permintaan cuti karyawan gagal dibuat",,high,major,functional,negative,is-not-automated,actual,no,unknown,classic,"1. Menekan menu Leave pada sidebar menu
+2. Menekan sub menu Assign Leave pada sidebar menu
+3. Masukkan valid Employee Name
+4. Memilih Leave Type pada dropdown list
+5. Memilih tanggal mulai cuti
+6. Memilih tanggal akhir cuti
+7. Masukkan deskripsi lebih lanjut pada field ""Comment""
+8. Menekan tombol ""Assign""
+","1. User diarahkan pada halaman Leave
+2. User diarahkan pada halaman Assign Leave
+3. Muncul nama employee pada list yang terdaftar
+4. * Leave Type terpilih
+* Jumlah sisa cuti akan tampil sesuai dengan jenis cuti yang dipilih
+* Terdapat warning ""The absence quota is not sufficient.""
+5. Tanggal mulai cuti terpilih
+6. Tanggal akhir cuti terpilih
+7. 
+8. * Permintaan cuti gagal dibuat
+* Terdapat warning ""The absence quota is not sufficient.""
+* User tetap berada pada halaman Assign Leave
+","1. 
+2. 
+3. David Morris
+4. CAN - Personal
+5. 12/09/2022
+6. 15/09/2022
+7. Cuti dikarenakan sakit
+8. 
+",,,10,8,"Assign Leave",
+54,"Membuat jadwal cuti baru untuk karyawan dan menambahkan jam kerja pendek saat cuti dengan data valid",,"* User telah mempunyai akun yang terdaftar dan telah login
+* User berada pada halaman menu Leave","Permintaan cuti karyawan berhasil dibuat",,high,major,functional,positive,is-not-automated,actual,no,unknown,classic,"1. Menekan menu Leave pada sidebar menu
+2. Menekan sub menu Assign Leave pada sidebar menu
+3. Masukkan valid Employee Name
+4. Memilih Leave Type pada dropdown list
+5. Memilih tanggal mulai cuti
+6. Memilih tanggal akhir cuti
+7. Memilih Partial Day pada dropdown list
+8. Memilih jam kerja pada dropdown list
+9. Masukkan deskripsi lebih lanjut pada field ""Comment""
+10. Menekan tombol ""Assign""
+","1. User diarahkan pada halaman Leave
+2. User diarahkan pada halaman Assign Leave
+3. Muncul nama employee pada list yang terdaftar
+4. * Leave Type terpilih
+* Jumlah sisa cuti akan tampil sesuai dengan jenis cuti yang dipilih
+5. Tanggal mulai cuti terpilih
+6. Tanggal akhir cuti terpilih
+7. * Partial Day terpilih
+* Jumlah sisa cuti akan tampil sesuai dengan jenis cuti yang dipilih
+8. * Jam kerja terpilih
+* Jumlah sisa cuti akan tampil sesuai dengan jenis cuti yang dipilih
+9. 
+10. * Permintaan cuti berhasil dibuat
+* Terdapat pop up ""Successfully Saved!""
+","1. 
+2. 
+3. David Morris
+4. US - Personal
+5. 12/09/2022
+6. 15/09/2022
+7. Start Day
+8. Half Day - Morning
+9. Cuti dikarenakan sakit
+10. 
+",,,10,8,"Assign Leave",
+55,"Membuat jadwal cuti baru untuk karyawan dengan mengosongkan field Employee Name",,"* User telah mempunyai akun yang terdaftar dan telah login
+* User berada pada halaman menu Leave","Permintaan cuti karyawan gagal dibuat",,high,major,functional,negative,is-not-automated,actual,no,unknown,classic,"1. Menekan menu Leave pada sidebar menu
+2. Menekan sub menu Assign Leave pada sidebar menu
+3. Mengosongkan Employee Name
+4. Memilih Leave Type pada dropdown list
+5. Memilih tanggal mulai cuti
+6. Memilih tanggal akhir cuti
+7. Masukkan deskripsi lebih lanjut pada field ""Comment""
+8. Menekan tombol ""Assign""
+","1. User diarahkan pada halaman Leave
+2. User diarahkan pada halaman Assign Leave
+3. * Nama employee yang dimasukkan tidak muncul
+* Terdapat ""Required!"" di bawah field Employee Name
+4. * Leave Type terpilih
+* Menampilkan ""Balance not sufficient""
+5. Tanggal mulai cuti terpilih
+6. Tanggal akhir cuti terpilih
+7. 
+8. * Permintaan cuti karyawan gagal dibuat
+* Terdapat ""Required"" di bawah field Employee Name
+* Menampilkan ""Balance not sufficient"" pada field Leave Type
+* User tetap berada pada halaman Assign Leave
+","1. 
+2. 
+3. 
+4. US - Personal
+5. 12/09/2022
+6. 15/09/2022
+7. Cuti dikarenakan sakit
+8. 
+",,,10,8,"Assign Leave",
+56,"Membuat jadwal cuti baru untuk karyawan dengan mengosongkan field Leave Type",,"* User telah mempunyai akun yang terdaftar dan telah login
+* User berada pada halaman menu Leave","Permintaan cuti karyawan gagal dibuat",,high,major,functional,negative,is-not-automated,actual,no,unknown,classic,"1. Menekan menu Leave pada sidebar menu
+2. Menekan sub menu Assign Leave pada sidebar menu
+3. Masukkan valid Employee Name
+4. Mengosongkan Leave Type
+5. Memilih tanggal mulai cuti
+6. Memilih tanggal akhir cuti
+7. Masukkan deskripsi lebih lanjut pada field ""Comment""
+8. Menekan tombol ""Assign""
+","1. User diarahkan pada halaman Leave
+2. User diarahkan pada halaman Assign Leave
+3. Muncul nama employee pada list yang terdaftar
+4. * Terdapat ""Required!"" di bawah field Leave Type
+* Jumlah sisa cuti 0
+5. Tanggal mulai cuti terpilih
+6. Tanggal akhir cuti terpilih
+7. 
+8. * Permintaan cuti karyawan gagal dibuat
+* Terdapat ""Required!"" di bawah field Leave Type
+* User tetap berada pada halaman Assign Leave
+","1. 
+2. 
+3. David Morris
+4. 
+5. 12/09/2022
+6. 15/09/2022
+7. Cuti dikarenakan sakit
+8. 
+",,,10,8,"Assign Leave",
+57,"Membuat jadwal cuti baru untuk karyawan dengan mengosongkan jadwal cuti",,"* User telah mempunyai akun yang terdaftar dan telah login
+* User berada pada halaman menu Leave","Permintaan cuti karyawan gagal dibuat",,high,major,functional,negative,is-not-automated,actual,no,unknown,classic,"1. Menekan menu Leave pada sidebar menu
+2. Menekan sub menu Assign Leave pada sidebar menu
+3. Masukkan valid Employee Name
+4. Memilih Leave Type pada dropdown list
+5. Mengosongkan jadwal cuti
+6. Mengosongkan jadwal cuti
+7. Masukkan deskripsi lebih lanjut pada field ""Comment""
+8. Menekan tombol ""Assign""
+","1. User diarahkan pada halaman Leave
+2. User diarahkan pada halaman Assign Leave
+3. Muncul nama employee pada list yang terdaftar
+4. * Leave Type terpilih
+* Jumlah sisa cuti akan tampil sesuai dengan jenis cuti yang dipilih
+5. Terdapat ""Required!"" di bawah field tanggal mulai
+6. Terdapat ""Required!"" di bawah field tanggal akhir
+7. 
+8. * Permintaan cuti karyawan gagal dibuat
+* Terdapat ""Required!"" di bawah field tanggal
+* User tetap berada pada halaman Assign Leave
+","1. 
+2. 
+3. David Morris
+4. US - Personal
+5. 
+6. 
+7. Cuti dikarenakan sakit
+8. 
+",,,10,8,"Assign Leave",
+58,"Membuat jadwal cuti baru untuk karyawan dengan mengosongkan field Comments",,"* User telah mempunyai akun yang terdaftar dan telah login
+* User berada pada halaman menu Leave","Permintaan cuti karyawan berhasil dibuat",,high,major,functional,negative,is-not-automated,actual,no,unknown,classic,"1. Menekan menu Leave pada sidebar menu
+2. Menekan sub menu Assign Leave pada sidebar menu
+3. Masukkan valid Employee Name
+4. Memilih Leave Type pada dropdown list
+5. Memilih tanggal mulai cuti
+6. Memilih tanggal akhir cuti
+7. Mengosongkan field ""Comment""
+8. Menekan tombol ""Assign""
+","1. User diarahkan pada halaman Leave
+2. User diarahkan pada halaman Assign Leave
+3. Muncul nama employee pada list yang terdaftar
+4. * Leave Type terpilih
+* Jumlah sisa cuti akan tampil sesuai dengan jenis cuti yang dipilih
+5. Tanggal mulai cuti terpilih
+6. Tanggal akhir cuti terpilih
+7. 
+8. * Permintaan cuti berhasil dibuat
+* Terdapat pop up ""Successfully Saved!""
+","1. 
+2. 
+3. David Morris
+4. US - Personal
+5. 20/09/2022
+6. 22/09/2022
+7. 
+8. 
+",,,10,8,"Assign Leave",
+59,"Membuat jadwal cuti baru untuk karyawan dengan data valid",,"* User telah mempunyai akun yang terdaftar dan telah login
+* User berada pada halaman menu Leave","Permintaan cuti karyawan berhasil dibuat",,high,major,functional,positive,is-not-automated,actual,no,unknown,classic,"1. Menekan menu Leave pada sidebar menu
+2. Menekan sub menu Assign Leave pada sidebar menu
+3. Masukkan valid Employee Name
+4. Memilih Leave Type pada dropdown list
+5. Memilih tanggal mulai cuti
+6. Memilih tanggal akhir cuti
+7. Masukkan deskripsi lebih lanjut pada field ""Comment""
+8. Menekan tombol ""Assign""
+","1. User diarahkan pada halaman Leave
+2. User diarahkan pada halaman Assign Leave
+3. Muncul nama employee pada list yang terdaftar
+4. * Leave Type terpilih
+* Jumlah sisa cuti akan tampil sesuai dengan jenis cuti yang dipilih
+5. Tanggal mulai cuti terpilih
+6. Tanggal akhir cuti terpilih
+7. 
+8. * Permintaan cuti berhasil dibuat
+* Terdapat pop up ""Successfully Saved!""
+","1. 
+2. 
+3. David Morris
+4. US - Personal
+5. 27/09/2022
+6. 29/09/2022
+7. Cuti dikarenakan sakit
+8. 
+",,,10,8,"Assign Leave",
+60,"Melihat detail timesheets karyawan",,"* User telah mempunyai akun yang terdaftar dan telah login
+* User berada pada halaman menu Time","User dapat melihat detail timesheet karyawan yang dipilih",,high,normal,functional,positive,automated,actual,no,unknown,classic,"1. Menekan menu Time pada sidebar menu
+2. Menekan tombol ""View"" pada salah satu karyawan
+","1. User diarahkan pada halaman Time
+2. User diarahkan pada halaman detail timesheet karyawan tersebut
+","1. 
+2. 
+",,,12,11,"Employee Timesheets",
+61,"Menambahkan komentar pada timesheet salah satu karyawan",,"* User telah mempunyai akun yang terdaftar dan telah login
+* User berada pada halaman menu Time","User dapat menambahkan komentar pada timesheet karyawan yang dipilih",,high,normal,functional,positive,is-not-automated,actual,no,unknown,classic,"1. Menekan menu Time pada sidebar menu
+2. Menekan tombol ""View"" pada salah satu karyawan
+3. Menekan tombol ""Edit"" pada salah satu karyawan
+4. Menekan icon komentar pada salah satu jam kerja
+5. Memasukkan komentar
+6. Menekan tombol ""Save""
+","1. User diarahkan pada halaman Time
+2. User diarahkan pada halaman detail timesheet karyawan tersebut
+3. User diarahkan pada halaman edit timesheet karyawan tersebut
+4. Muncul pop up komentar
+5. 
+6. * Komentar berhasil ditambahkan
+* Muncul pop up ""Successfully Saved""
+","1. 
+2. 
+3. 
+4. 
+5. Meeting internal
+6. 
+",,,12,11,"Employee Timesheets",
+62,"Menambahkan project kerja pada timesheet karyawan",,"* User telah mempunyai akun yang terdaftar dan telah login
+* User berada pada halaman menu Time","Project berhasil ditambahkan pada timesheet",,high,normal,functional,positive,is-not-automated,actual,no,unknown,classic,"1. Menekan menu Time pada sidebar menu
+2. Menekan tombol ""View"" pada salah satu karyawan
+3. Menekan tombol ""Edit"" pada salah satu karyawan
+4. Menekan tombol ""+ Add Row""
+5. Memasukkan project kerja valid pada dropdown list
+6. Memasukkan activity valid pada dropdown list
+7. Memasukkan jam dan hari kerja
+8. Menekan tombol ""Save""
+","1. User diarahkan pada halaman Time
+2. User diarahkan pada halaman detail timesheet karyawan tersebut
+3. User diarahkan pada halaman edit timesheet karyawan tersebut
+4. Muncul field form project kerja
+5. Project kerja terpilih
+6. Activity terpilih
+7. 
+8. * Project berhasil ditambahkan pada timesheet
+* Muncul pop up ""Successfully Saved""
+","1. 
+2. 
+3. 
+4. 
+5. ACME Ltd - ACME Ltd
+6. Bug Fixes
+7. 10.00 hari Senin
+8. 
+",,,12,11,"Employee Timesheets",
+63,"Menghapus project kerja pada timesheet karyawan",,"* User telah mempunyai akun yang terdaftar dan telah login
+* User berada pada halaman menu Time","Project berhasil terhapus dari timesheet",,high,normal,functional,positive,is-not-automated,actual,no,unknown,classic,"1. Menekan menu Time pada sidebar menu
+2. Menekan tombol ""View"" pada salah satu karyawan
+3. Menekan tombol ""Edit"" pada salah satu karyawan
+4. Menekan icon sampah pada salah satu project
+5. Menekan tombol ""Yes, Delete""
+6. Menekan tombol ""Save""
+","1. User diarahkan pada halaman Time
+2. User diarahkan pada halaman detail timesheet karyawan tersebut
+3. User diarahkan pada halaman edit timesheet karyawan tersebut
+4. Muncul pop up ""The selected record will be permanently deleted. Are you sure you want to continue?""
+5. * Project pada timesheet berhasil dihapus
+* Terdapat pemberitahuan ""Successfully Deleted""
+6. * Project pada timesheet berhasil dihapus
+* Muncul pop up ""Successfully Saved""
+","1. 
+2. 
+3. 
+4. 
+5. 
+6. 
+",,,12,11,"Employee Timesheets",
+64,"Menambahkan project kerja pada timesheet karyawan ketika field project dan activity kosong",,"* User telah mempunyai akun yang terdaftar dan telah login
+* User berada pada halaman menu Time","Project gagal ditambahkan pada timesheet",,high,normal,functional,negative,automated,actual,no,unknown,classic,"1. Menekan menu Time pada sidebar menu
+2. Menekan tombol ""View"" pada salah satu karyawan
+3. Menekan tombol ""Edit"" pada salah satu karyawan
+4. Menekan tombol ""+ Add Row""
+5. Mengosongkan field project kerja
+6. Mengosongkan field activity
+7. Memasukkan jam dan hari kerja
+8. Menekan tombol ""Save""
+","1. User diarahkan pada halaman Time
+2. User diarahkan pada halaman detail timesheet karyawan tersebut
+3. User diarahkan pada halaman edit timesheet karyawan tersebut
+4. Muncul field form project kerja
+5. Terdapat warning message ""Select a Project"" di bawah field project kerja
+6. Terdapat warning message ""Select an Activity"" di bawah field project kerja
+7. 
+8. * Project gagal ditambahkan pada timesheet
+* Terdapat warning message ""Select a Project"" di bawah field project kerja
+* Terdapat warning message ""Select an Activity"" di bawah field project kerja
+* User tetap pada halaman edit timesheet
+","1. 
+2. 
+3. 
+4. 
+5. 
+6. 
+7. 10.00 hari Senin
+8. 
+",,,12,11,"Employee Timesheets",
+65,"Mencari valid timesheet employee",,"* User telah mempunyai akun yang terdaftar dan telah login
+* User berada pada halaman menu Time","Menampilkan timesheet employee yang dicari",,high,major,functional,positive,automated,actual,no,unknown,classic,"1. Menekan menu Time pada sidebar menu
+2. Masukkan key word nama employee
+3. Menekan tombol ""View""
+","1. User diarahkan pada halaman Time
+2. Muncul nama employee pada list yang terdaftar
+3. Menampilkan timesheet employee yang dicari
+","1. 
+2. Aaliyah Haq
+3. 
+",,,12,11,"Employee Timesheets",
+66,"Menambahkan lowongan pekerjaan dengan data valid",,"* User telah mempunyai akun yang terdaftar dan telah login
+* User berada pada halaman menu Recruitment","Lowongan berhasil ditambahkan",,high,major,functional,positive,automated,actual,no,unknown,classic,"1. Menekan menu Recruitment pada sidebar
+2. Menekan tombol ""Vacancies""
+3. Menekan tombol ""+ Add""
+4. Masukkan valid Vacancy Name
+5. Memilih valid Job Title pada dropdown list
+6. Masukkan Description dari lowongan
+7. Masukkan valid Hiring Manager pada dropdown list
+8. Masukkan valid Number of Position
+9. Menekan tombol ""Save""
+","1. User diarahkan pada halaman Recruitment
+2. Menampilkan halaman Vacancy List
+3. Menampilkan halaman Add Vacancy
+4. 
+5. Job title terpilih
+6. 
+7. Hiring manager terpilih
+8. 
+9. * Lowongan berhasil ditambahkan
+* Muncul pop up ""Successfully Saved""
+","1. 
+2. 
+3. 
+4. Junior QA
+5. QA Engineer
+6. Junior QA with manual testing abilities
+7. Odis
+8. 2
+9. 
+",,,14,13,Vacancies,
+67,"Menghapus satu lowongan pekerjaan pada Vacancies",,"* User telah mempunyai akun yang terdaftar dan telah login
+* User berada pada halaman menu Recruitment","Lowongan berhasil dihapus",,high,major,functional,positive,automated,actual,no,unknown,classic,"1. Menekan menu Recruitment pada sidebar
+2. Menekan tombol ""Vacancies""
+3. Menekan icon sampah pada satu lowongan yang ingin dihapus
+4. Menekan tombol ""Yes, Delete""
+","1. User diarahkan pada halaman Recruitment
+2. Menampilkan halaman Vacancy List
+3. Muncul pop up ""The selected record will be permanently deleted. Are you sure you want to continue?""
+4. * Lowongan berhasil dihapus
+* Terdapat pemberitahuan ""Successfully Deleted""
+","1. 
+2. 
+3. 
+4. 
+",,,14,13,Vacancies,
+68,"Mengedit lowongan pekerjaan pada Vacancies",,"* User telah mempunyai akun yang terdaftar dan telah login
+* User berada pada halaman menu Recruitment","Lowongan berhasil di update",,high,major,functional,positive,is-not-automated,actual,no,unknown,classic,"1. Menekan menu Recruitment pada sidebar
+2. Menekan tombol ""Vacancies""
+3. Menekan icon pensil pada satu lowongan yang ingin dihapus
+4. Update data lowongan terbaru
+5. Menekan tombol ""Save""
+","1. User diarahkan pada halaman Recruitment
+2. Menampilkan halaman Vacancy List
+3. Menampilkan halaman Edit Vacancy
+4. Data baru di update
+5. * Lowongan berhasil ditambahkan
+* Muncul pop up ""Successfully Saved""
+","1. 
+2. 
+3. 
+4. 
+5. 
+",,,14,13,Vacancies,
+69,"Menambahkan informasi kandidat dengan data valid",,"* User telah mempunyai akun yang terdaftar dan telah login
+* User berada pada halaman menu Recruitment","Kandidat berhasil ditambahkan",,high,major,functional,positive,is-not-automated,actual,no,unknown,classic,"1. Menekan menu Recruitment pada sidebar
+2. Menekan tombol ""+ Add""
+3. Masukkan valid First Name kandidat
+4. Masukkan valid Middle Name kandidat
+5. Masukkan valid Last Name kandidat
+6. Memilih valid Vacancy pada dropdown list
+7. Masukkan valid Email kandidat
+8. Masukkan valid Contact Number kandidat
+9. Upload valid file Resume
+10. Masukkan valid Keyword
+11. Pilih tanggal Date Application
+12. Masukkan valid Notes
+13. Menekan checkbox ""Consent to keep data""
+14. Menekan tombol ""Save""
+","1. User diarahkan pada halaman Recruitment
+2. Menampilkan halaman Add Candidate
+3. 
+4. 
+5. 
+6. Vacancy terpilih
+7. 
+8. 
+9. File resume berhasil di upload
+10. 
+11. Tanggal lamaran terpilih
+12. 
+13. ""Consent to keep data"" tercentang
+14. * Kandidat berhasil ditambahkan
+* Muncul pop up ""Successfully Saved""
+* User diarahkan halaman Application Stage kandidat
+* Status lamaran kandidat menjadi ""Application Initiated""
+","1. 
+2. 
+3. Alicia
+4. Middle
+5. Brown
+6. Software Engineer
+7. aliciabrown@mail.com
+8. 082345678901
+9. 
+10. Software engineer, web developer
+11. 
+12. Has good knowledge of HTML and CSS
+13. 
+14. 
+",,,15,13,Candidates,
+71,"Menambahkan informasi kandidat dengan mengosongkan field first name, middle name, last name dan job vacancy",,"* User telah mempunyai akun yang terdaftar dan telah login
+* User berada pada halaman menu Recruitment","Kandidat gagal ditambahkan",,high,major,functional,negative,is-not-automated,actual,no,unknown,classic,"1. Menekan menu Recruitment pada sidebar
+2. Menekan tombol ""+ Add""
+3. Mengosongkan field First Name kandidat
+4. Mengosongkan field Middle Name kandidat
+5. Mengosongkan field Last Name kandidat
+6. Tidak memilih Vacancy pada dropdown list
+7. Masukkan valid Email kandidat
+8. Masukkan valid Contact Number kandidat
+9. Upload valid file Resume
+10. Masukkan valid Keyword
+11. Pilih tanggal Date Application
+12. Masukkan valid Notes
+13. Menekan checkbox ""Consent to keep data""
+14. Menekan tombol ""Save""
+","1. User diarahkan pada halaman Recruitment
+2. Menampilkan halaman Add Candidate
+3. Terdapat warning ""Required""
+4. 
+5. Terdapat warning ""Required""
+6. Dropdown yang ditampilkan ""Select""
+7. 
+8. 
+9. File resume berhasil di upload
+10. 
+11. Tanggal lamaran terpilih
+12. 
+13. ""Consent to keep data"" tercentang
+14. * Kandidat gagal ditambahkan
+* Terdapat warning ""Required"" pada field First Name dan Last Name
+* User tetap pada halaman Add Candidate
+","1. 
+2. 
+3. 
+4. 
+5. 
+6. 
+7. aliciabrown@mail.com
+8. 082345678901
+9. 
+10. Software engineer, web developer
+11. 2 September 2022
+12. Has good knowledge of HTML and CSS
+13. 
+14. 
+",,,15,13,Candidates,
+72,"Menambahkan informasi kandidat dengan mengosongkan field email dan contact number",,"* User telah mempunyai akun yang terdaftar dan telah login
+* User berada pada halaman menu Recruitment","Kandidat gagal ditambahkan",,high,major,functional,negative,is-not-automated,actual,no,unknown,classic,"1. Menekan menu Recruitment pada sidebar
+2. Menekan tombol ""+ Add""
+3. Masukkan valid First Name kandidat
+4. Masukkan valid Middle Name kandidat
+5. Masukkan valid Last Name kandidat
+6. Memilih valid Vacancy pada dropdown list
+7. Mengosongkan field Email kandidat
+8. Mengosongkan field Contact Number kandidat
+9. Upload valid file Resume
+10. Masukkan valid Keyword
+11. Pilih tanggal Date Application
+12. Masukkan valid Notes
+13. Menekan checkbox ""Consent to keep data""
+14. Menekan tombol ""Save""
+","1. User diarahkan pada halaman Recruitment
+2. Menampilkan halaman Add Candidate
+3. 
+4. 
+5. 
+6. Vacancy terpilih
+7. Terdapat warning ""Required""
+8. 
+9. File resume berhasil di upload
+10. 
+11. Tanggal lamaran terpilih
+12. 
+13. ""Consent to keep data"" tercentang
+14. * Kandidat gagal ditambahkan
+* Terdapat warning ""Required"" pada field Email
+* User tetap pada halaman Add Candidate
+","1. 
+2. 
+3. Alicia
+4. Middle
+5. Brown
+6. Software Engineer
+7. 
+8. 
+9. 
+10. Software engineer, web developer
+11. 2 September 2022
+12. Has good knowledge of HTML and CSS
+13. 
+14. 
+",,,15,13,Candidates,
+73,"Menambahkan informasi kandidat dengan tidak upload file resume dan tidak memilih tanggal lamaran",,"* User telah mempunyai akun yang terdaftar dan telah login
+* User berada pada halaman menu Recruitment","Kandidat berhasil ditambahkan",,high,major,functional,negative,is-not-automated,actual,no,unknown,classic,"1. Menekan menu Recruitment pada sidebar
+2. Menekan tombol ""+ Add""
+3. Masukkan valid First Name kandidat
+4. Masukkan valid Middle Name kandidat
+5. Masukkan valid Last Name kandidat
+6. Memilih valid Vacancy pada dropdown list
+7. Masukkan valid Email kandidat
+8. Masukkan valid Contact Number kandidat
+9. Tidak upload file Resume
+10. Masukkan valid Keyword
+11. Tidak memilih tanggal Date Application
+12. Masukkan valid Notes
+13. Menekan checkbox ""Consent to keep data""
+14. Menekan tombol ""Save""
+","1. User diarahkan pada halaman Recruitment
+2. Menampilkan halaman Add Candidate
+3. 
+4. 
+5. 
+6. Vacancy terpilih
+7. 
+8. 
+9. 
+10. 
+11. Tanggal lamaran otomatis terpilih tanggal hari itu
+12. 
+13. ""Consent to keep data"" tercentang
+14. * Kandidat berhasil ditambahkan
+* Muncul pop up ""Successfully Saved""
+* User diarahkan halaman Application Stage kandidat
+* Status lamaran kandidat menjadi ""Application Initiated""
+","1. 
+2. 
+3. Alicia
+4. Middle
+5. Brown
+6. Software Engineer
+7. aliciabrown@mail.com
+8. 082345678901
+9. 
+10. Software engineer, web developer
+11. 
+12. Has good knowledge of HTML and CSS
+13. 
+14. 
+",,,15,13,Candidates,
+75,"Menambahkan informasi kandidat dengan mengosongkan field Keywords, Notes dan tidak menekan checkbox keep data",,"* User telah mempunyai akun yang terdaftar dan telah login
+* User berada pada halaman menu Recruitment","Kandidat berhasil ditambahkan",,high,major,functional,negative,is-not-automated,actual,no,unknown,classic,"1. Menekan menu Recruitment pada sidebar
+2. Menekan tombol ""+ Add""
+3. Masukkan valid First Name kandidat
+4. Masukkan valid Middle Name kandidat
+5. Masukkan valid Last Name kandidat
+6. Memilih valid Vacancy pada dropdown list
+7. Masukkan valid Email kandidat
+8. Masukkan valid Contact Number kandidat
+9. Upload valid file Resume
+10. Mengosongkan field Keyword
+11. Pilih tanggal Date Application
+12. Mengosongkan field Notes
+13. Menekan tombol ""Save""
+","1. User diarahkan pada halaman Recruitment
+2. Menampilkan halaman Add Candidate
+3. 
+4. 
+5. 
+6. Vacancy terpilih
+7. 
+8. 
+9. File resume berhasil di upload
+10. 
+11. Tanggal lamaran terpilih
+12. 
+13. * Kandidat berhasil ditambahkan
+* Muncul pop up ""Successfully Saved""
+* User diarahkan halaman Application Stage kandidat
+* Status lamaran kandidat menjadi ""Application Initiated""
+","1. 
+2. 
+3. Alicia
+4. Middle
+5. Brown
+6. Software Engineer
+7. aliciabrown@mail.com
+8. 082345678901
+9. 
+10. 
+11. 02/09/2022
+12. 
+13. 
+",,,15,13,Candidates,
+76,"Menambahkan informasi kandidat dengan upload file resume selain format file .docx, .doc, .odt, .pdf, .rtf, .txt",,"* User telah mempunyai akun yang terdaftar dan telah login
+* User berada pada halaman menu Recruitment","Kandidat gagal ditambahkan",,high,major,functional,negative,is-not-automated,actual,no,unknown,classic,"1. Menekan menu Recruitment pada sidebar
+2. Menekan tombol ""+ Add""
+3. Masukkan valid First Name kandidat
+4. Masukkan valid Middle Name kandidat
+5. Masukkan valid Last Name kandidat
+6. Memilih valid Vacancy pada dropdown list
+7. Masukkan valid Email kandidat
+8. Masukkan valid Contact Number kandidat
+9. Upload file Resume selain format file .docx, .doc, .odt, .pdf, .rtf, .txt
+10. Masukkan valid Keyword
+11. Pilih tanggal Date Application
+12. Masukkan valid Notes
+13. Menekan checkbox ""Consent to keep data""
+14. Menekan tombol ""Save""
+","1. User diarahkan pada halaman Recruitment
+2. Menampilkan halaman Add Candidate
+3. 
+4. 
+5. 
+6. Vacancy terpilih
+7. 
+8. 
+9. Terdapat warning ""File type not allowed""
+10. 
+11. Tanggal lamaran terpilih
+12. 
+13. ""Consent to keep data"" tercentang
+14. * Kandidat gagal ditambahkan
+* Terdapat warning ""File type not allowed"" pada field Resume
+* User tetap pada halaman Add Candidate
+","1. 
+2. 
+3. Alicia
+4. Middle
+5. Brown
+6. Software Engineer
+7. aliciabrown@mail.com
+8. 082345678901
+9. resume.jpg
+10. Software engineer, web developer
+11. 
+12. Has good knowledge of HTML and CSS
+13. 
+14. 
+",,,15,13,Candidates,
+77,"Menambahkan informasi kandidat dengan upload file resume ukuran lebih dari 1 MB",,"* User telah mempunyai akun yang terdaftar dan telah login
+* User berada pada halaman menu Recruitment","Kandidat gagal ditambahkan",,high,major,functional,negative,is-not-automated,actual,no,unknown,classic,"1. Menekan menu Recruitment pada sidebar
+2. Menekan tombol ""+ Add""
+3. Masukkan valid First Name kandidat
+4. Masukkan valid Middle Name kandidat
+5. Masukkan valid Last Name kandidat
+6. Memilih valid Vacancy pada dropdown list
+7. Masukkan valid Email kandidat
+8. Masukkan valid Contact Number kandidat
+9. Upload file Resume ukuran lebih dari 1 MB
+10. Masukkan valid Keyword
+11. Pilih tanggal Date Application
+12. Masukkan valid Notes
+13. Menekan checkbox ""Consent to keep data""
+14. Menekan tombol ""Save""
+","1. User diarahkan pada halaman Recruitment
+2. Menampilkan halaman Add Candidate
+3. 
+4. 
+5. 
+6. Vacancy terpilih
+7. 
+8. 
+9. Terdapat warning ""Attachment Size Exceeded""
+10. 
+11. Tanggal lamaran terpilih
+12. 
+13. ""Consent to keep data"" tercentang
+14. * Kandidat gagal ditambahkan
+* Terdapat warning ""Attachment Size Exceeded"" pada field Resume
+* User tetap pada halaman Add Candidate
+","1. 
+2. 
+3. Alicia
+4. Middle
+5. Brown
+6. Software Engineer
+7. aliciabrown@mail.com
+8. 082345678901
+9. resume.pdf
+10. Software engineer, web developer
+11. 
+12. Has good knowledge of HTML and CSS
+13. 
+14. 
+",,,15,13,Candidates,
+78,"Melihat detail kandidat",,"* User telah mempunyai akun yang terdaftar dan telah login
+* User berada pada halaman menu Recruitment","User diarahkan pada halaman Candidate Profile",,high,major,functional,positive,automated,actual,no,unknown,classic,"1. Menekan menu Recruitment pada sidebar
+2. Menekan icon mata pada salah satu daftar kandidat
+","1. User diarahkan pada halaman Recruitment
+2. User diarahkan pada halaman Candidate Profile yang dipilih
+","1. 
+2. 
+",,,15,13,Candidates,
+79,"Menghapus satu kandidat",,"* User telah mempunyai akun yang terdaftar dan telah login
+* User berada pada halaman menu Recruitment","Kandidat berhasil dihapus",,high,major,functional,positive,automated,actual,no,unknown,classic,"1. Menekan menu Recruitment pada sidebar
+2. Menekan icon sampah pada satu kandidat yang ingin dihapus
+3. Menekan tombol ""Yes, Delete""
+","1. User diarahkan pada halaman Recruitment
+2. Muncul pop up ""The selected record will be permanently deleted. Are you sure you want to continue?""
+3. * Kandidat berhasil dihapus
+* Terdapat pemberitahuan ""Successfully Deleted""
+","1. 
+2. 
+3. 
+",,,15,13,Candidates,
+80,"Download resume kandidat",,"* User telah mempunyai akun yang terdaftar dan telah login
+* User berada pada halaman menu Recruitment","Resume kandidat berhasil di download",,high,major,functional,positive,automated,actual,no,unknown,classic,"1. Menekan menu Recruitment pada sidebar
+2. Menekan icon download pada salah satu daftar kandidat
+","1. User diarahkan pada halaman Recruitment
+2. Resume kandidat berhasil di download
+","1. 
+2. 
+",,,15,13,Candidates,
+81,"Menampilkan detail info akun",,"User sudah punya akun dan sudah login","Informasi detail akun ditampilkan",,undefined,normal,other,undefined,automated,actual,no,unknown,classic,"1. Menekan tombol ""My Info"" pada menu sidebar
+","1. Informasi detail akun ditampilkan
+","1. 
+",,,16,,"My Info",
+82,"Mengubah foto profil akun",,"User sudah punya akun dan sudah login","Foto profil berhasil di ubah",,undefined,normal,other,undefined,is-not-automated,actual,no,unknown,classic,"1. Menekan tombol ""My Info"" pada menu sidebar
+2. Menekan foto profil akun
+3. Menekan icon +
+4. Memilih format gambar valid
+5. Menekan tombol ""Save""
+","1. Informasi detail akun ditampilkan
+2. Halaman Change Profile Picture ditampilkan
+3. File directory device terbuka
+4. Gambar berhasil ditampilkan
+5. * Gambar profil berhasil upload dan tersimpan
+* Terdapat pemberitahuan ""Successfully saved""
+","1. 
+2. 
+3. 
+4. 
+5. 
+",,,16,,"My Info",
+83,"Update Personal Details akun",,"* User telah mempunyai akun yang terdaftar dan telah login
+* User berada pada halaman menu My Info","User berhasil mengubah Personal Details akun",,undefined,normal,other,undefined,is-not-automated,actual,no,unknown,classic,"1. Menekan menu My Info pada sidebar
+2. Masukkan valid nickname
+3. Masukkan valid Driver's License Number
+4. Masukkan tanggal valid License Expiry Date
+5. Menekan tombol ""Save""
+","1. User diarahkan pada halaman Personal Details
+2. 
+3. 
+4. Tanggal License Expiry Date terpilih
+5. * Personal Details berhasil terupdate
+* Data berhasil tersimpan
+* Terdapat pemberitahuan ""Successfully Updated""
+","1. 
+2. Paul
+3. G544-061-73-925-0
+4. 2024-09-08
+5. 
+",,,16,,"My Info",
+84,"Menambahkan golongan darah pada Personal Details",,"* User telah mempunyai akun yang terdaftar dan telah login
+* User berada pada halaman menu My Info","User berhasil menambahkan golongan darah pada Personal Details",,medium,normal,other,positive,is-not-automated,actual,no,unknown,classic,"1. Memilih valid Golongan Darah pada dropdown list
+2. Menekan tombol ""Save""
+","1. Golongan darah terpilih
+2. * Personal Details berhasil terupdate
+* Data berhasil tersimpan
+* Terdapat pemberitahuan ""Successfully Updated""
+","1. O+
+2. 
+",,,16,,"My Info",
+85,"Menambahkan attachment file pada Personal Details",,"* User telah mempunyai akun yang terdaftar dan telah login
+* User berada pada halaman menu My Info","User berhasil menambahkan file attachment",,medium,normal,other,positive,is-not-automated,actual,no,unknown,classic,"1. Menekan tombol ""My Info"" pada menu sidebar
+2. Menekan tombol ""+ Add"" pada section Add Attachment
+3. Menekan tombol ""Browse"" pada section Attachment
+4. Menekan tombol ""Browse"" pada section Attachment
+5. Memilih format file valid
+6. Memasukkan comment
+7. Menekan tombol ""Save"" pada section Add Attachment
+","1. Informasi detail akun ditampilkan
+2. Terdapat form Attachment file
+3. File directory device terbuka
+4. File directory device terbuka
+5. File berhasil ter upload
+6. 
+7. * Attachment file berhasil upload dan tersimpan
+* Terdapat pemberitahuan ""Successfully saved""
+","1. 
+2. 
+3. 
+4. 
+5. My resume.pdf
+6. My backup resume
+7. 
+",,,16,,"My Info",
+86,"Menambahkan attachment file pada Personal Details tanpa mengisi field Comment",,"* User telah mempunyai akun yang terdaftar dan telah login
+* User berada pada halaman menu My Info","User berhasil menambahkan file attachment",,medium,normal,other,negative,is-not-automated,actual,no,unknown,classic,"1. Menekan tombol ""My Info"" pada menu sidebar
+2. Menekan tombol ""+ Add"" pada section Add Attachment
+3. Menekan tombol ""Browse"" pada section Attachment
+4. Menekan tombol ""Browse"" pada section Attachment
+5. Memilih format file valid
+6. Mengosongkan field Comment
+7. Menekan tombol ""Save"" pada section Add Attachment
+","1. Informasi detail akun ditampilkan
+2. Terdapat form Attachment file
+3. File directory device terbuka
+4. File directory device terbuka
+5. File berhasil ter upload
+6. 
+7. * Attachment file berhasil upload dan tersimpan
+* Terdapat pemberitahuan ""Successfully saved""
+","1. 
+2. 
+3. 
+4. 
+5. My resume.pdf
+6. 
+7. 
+",,,16,,"My Info",
+87,"Menghapus file attachment pada Personal Details",,"* User telah mempunyai akun yang terdaftar dan telah login
+* User berada pada halaman menu My Info","Attachment file berhasil dihapus",,high,major,functional,positive,automated,actual,no,unknown,classic,"1. Menekan menu My Info pada sidebar
+2. Menekan icon sampah pada satu attachment file yang ingin dihapus
+3. Menekan tombol ""Yes, Delete""
+","1. Informasi detail akun ditampilkan
+2. Muncul pop up ""The selected record will be permanently deleted. Are you sure you want to continue?""
+3. * Attachment file berhasil dihapus
+* Terdapat pemberitahuan ""Successfully Deleted""
+","1. 
+2. 
+3. 
+",,,16,,"My Info",
+88,"Download attachment file",,"* User telah mempunyai akun yang terdaftar dan telah login
+* User berada pada halaman menu My Info","Attachment file berhasil di download",,high,major,functional,positive,automated,actual,no,unknown,classic,"1. Menekan menu My Info pada sidebar
+2. Menekan icon download pada salah satu attachment file
+","1. Informasi detail akun ditampilkan
+2. Attachment file berhasil di download
+","1. 
+2. 
+",,,16,,"My Info",
+89,"Menampilkan tracker kinerja karyawan",,"* User telah mempunyai akun yang terdaftar dan telah login
+* User berada pada halaman menu Performance","Menampilkan daftar tracker kinerja karyawan",,high,major,functional,positive,automated,actual,no,unknown,classic,"1. Menekan menu Performance pada sidebar
+2. Menekan tombol ""Employee Tracker""
+","1. Halaman Performance ditampilkan
+2. Menampilkan daftar tracker kinerja karyawan
+","1. 
+2. 
+",,,17,,Performance,
+90,"Mencari tracker kinerja karyawan",,"* User telah mempunyai akun yang terdaftar dan telah login
+* User berada pada halaman menu Performance","Menampilkan daftar tracker kinerja karyawan yang dicari",,high,major,functional,positive,is-not-automated,actual,no,unknown,classic,"1. Menekan menu Performance pada sidebar
+2. Menekan tombol ""Employee Tracker""
+3. Memasukkan valid Employee Name yang sudah terdaftar pada Employee List
+4. Menekan tombol ""Search""
+","1. Halaman Performance ditampilkan
+2. Menampilkan daftar tracker kinerja karyawan
+3. Muncul nama employee pada list yang terdaftar
+4. Menampilkan daftar tracker kinerja karyawan yang dicari
+","1. 
+2. 
+3. Charlie
+4. 
+",,,17,,Performance,
+91,"Reset parameter pencarian tracker kinerja karyawan",,"* User telah mempunyai akun yang terdaftar dan telah login
+* User berada pada halaman menu Performance","Parameter pencarian karyawan ter reset",,high,major,functional,positive,is-not-automated,actual,no,unknown,classic,"1. Menekan menu Performance pada sidebar
+2. Menekan tombol ""Employee Tracker""
+3. Menekan tombol ""Reset""
+","1. Halaman Performance ditampilkan
+2. Menampilkan daftar tracker kinerja karyawan
+3. * Parameter pencarian karyawan ter reset
+* Menampilkan semua daftar tracker karyawan
+","1. 
+2. 
+3. 
+",,,17,,Performance,
+92,"Melihat detail tracker kinerja karyawan",,"* User telah mempunyai akun yang terdaftar dan telah login
+* User berada pada halaman menu Performance","Menampilkan detail kinerja karyawan",,high,major,functional,negative,automated,actual,no,unknown,classic,"1. Menekan menu Performance pada sidebar
+2. Menekan tombol ""Employee Tracker""
+3. Menekan tombol ""View"" pada salah satu kayawan
+","1. Halaman Performance ditampilkan
+2. Menampilkan daftar tracker kinerja karyawan
+3. Menampilkan detail kinerja karyawan
+","1. 
+2. 
+3. 
+",,,17,,Performance,
+93,"Menampilkan tracker kinerja sendiri",,"* User telah mempunyai akun yang terdaftar dan telah login
+* User berada pada halaman menu Performance","Menampilkan daftar tracker kinerja sendiri",,high,major,functional,positive,automated,actual,no,unknown,classic,"1. Menekan menu Performance pada sidebar
+2. Menekan tombol ""My Trackers""
+","1. Halaman Performance ditampilkan
+2. Menampilkan daftar tracker kinerja karyawan
+","1. 
+2. 
+",,,17,,Performance,
+99,"Menampilkan dashboard HRM Orange",,"* User telah mempunyai akun yang terdaftar dan telah login
+* User berada pada halaman menu Dashboard","Menampilkan launching soon message",,medium,normal,functional,positive,automated,actual,no,unknown,classic,"1. Menekan menu Dashboard pada sidebar
+","1. * Halaman Dashboard ditampilkan
+* Terdapat message Launching Soon Feature
+","1. 
+",,,18,,Dashboard,
+94,"Menampilkan direktori daftar karyawan",,"* User telah mempunyai akun yang terdaftar dan telah login
+* User berada pada halaman menu Directory","Menampilkan seluruh daftar karyawan",,high,major,functional,positive,automated,actual,no,unknown,classic,"1. Menekan menu Directory pada sidebar
+","1. * Halaman Directory ditampilkan
+* Seluruh daftar karyawan ditampilkan
+","1. 
+",,,19,,Directory,
+95,"Menampilkan detail informasi karyawan",,"* User telah mempunyai akun yang terdaftar dan telah login
+* User berada pada halaman menu Directory","Detail informasi karyawan ditampilkan",,high,major,functional,positive,automated,actual,no,unknown,classic,"1. Menekan menu Directory pada sidebar
+2. Menekan salah satu profil karyawan
+","1. * Halaman Directory ditampilkan
+* Seluruh daftar karyawan ditampilkan
+2. Section informasi detail karyawan ditampilkan
+","1. 
+2. 
+",,,19,,Directory,
+96,"Direct mengirim email ketika user menekan icon email pada detail informasi karyawan",,"* User telah mempunyai akun yang terdaftar dan telah login
+* User berada pada halaman menu Directory","Muncul pop up aplikasi email",,medium,major,functional,positive,is-not-automated,actual,no,unknown,classic,"1. Menekan menu Directory pada sidebar
+2. Menekan salah satu profil karyawan
+3. Menekan icon surat
+","1. * Halaman Directory ditampilkan
+* Seluruh daftar karyawan ditampilkan
+2. Section informasi detail karyawan ditampilkan
+3. Muncul pop up aplikasi email
+","1. 
+2. 
+3. 
+",,,19,,Directory,
+97,"Direct telfon ketika user menekan icon telefon pada detail informasi karyawan",,"* User telah mempunyai akun yang terdaftar dan telah login
+* User berada pada halaman menu Directory","Muncul pop up ""Make a call from""",,medium,major,functional,positive,is-not-automated,actual,no,unknown,classic,"1. Menekan menu Directory pada sidebar
+2. Menekan salah satu profil karyawan
+3. Menekan icon telepon
+","1. * Halaman Directory ditampilkan
+* Seluruh daftar karyawan ditampilkan
+2. Section informasi detail karyawan ditampilkan
+3. Muncul pop up ""Make a call from""
+","1. 
+2. 
+3. 
+",,,19,,Directory,
+98,"Nomor telepon otomatis tersalin ketika user menekan icon copy pada detail informasi karyawan",,"* User telah mempunyai akun yang terdaftar dan telah login
+* User berada pada halaman menu Directory","Nomor telepon karyawan otomatis tersalin",,medium,major,functional,positive,is-not-automated,actual,no,unknown,classic,"1. Menekan menu Directory pada sidebar
+2. Menekan salah satu profil karyawan
+3. Arahkan pointer pada nomor telepon karyawan
+4. Menekan icon copy
+","1. * Halaman Directory ditampilkan
+* Seluruh daftar karyawan ditampilkan
+2. Section informasi detail karyawan ditampilkan
+3. Menampilkan hover card dan icon copy
+4. Nomor telepon otomatis tersalin
+","1. 
+2. 
+3. 
+4. 
+",,,19,,Directory,
+100,"Menampilkan halaman Buzz",,"* User telah mempunyai akun yang terdaftar dan telah login
+* User berada pada halaman menu Buzz","Menampilkan launching soon message",,medium,normal,functional,positive,automated,actual,no,unknown,classic,"1. Menekan menu Buzz pada sidebar
+","1. * Halaman Dashboard ditampilkan
+* Terdapat message Launching Soon Feature
+","1. 
+",,,20,,Buzz,
